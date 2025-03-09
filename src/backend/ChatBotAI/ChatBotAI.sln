@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0E1E8660-6FA6-4166-8F76-FB3E74B0FF56}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{DE7BC16A-578E-41B4-8E45-9A9F4DA04B95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatBotAI.Application", "src\ChatBotAI.Application\ChatBotAI.Application.csproj", "{3E7766AA-F386-4EE0-81FA-2590E15D8A8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatBotAI.Domain", "src\ChatBotAI.Domain\ChatBotAI.Domain.csproj", "{6246494F-B8CA-47B0-B447-FE4072CA34BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatBotAI.Infrastructure", "src\ChatBotAI.Infrastructure\ChatBotAI.Infrastructure.csproj", "{17A96760-3F55-4C05-B8AD-CBBF713A74EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatBotAI.Web", "src\ChatBotAI.Web\ChatBotAI.Web.csproj", "{13D6031A-1259-49F0-8B3B-B7EDF6E8230F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatBotAI.Application.Tests", "tests\ChatBotAI.Application.Tests\ChatBotAI.Application.Tests.csproj", "{376032FC-C672-4471-8F16-F582575EF928}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0D8E742C-E798-4C9D-A2A2-E9DA8480C9C0}"
+	ProjectSection(SolutionItems) = preProject
+		Dockerfile = Dockerfile
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E7766AA-F386-4EE0-81FA-2590E15D8A8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E7766AA-F386-4EE0-81FA-2590E15D8A8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E7766AA-F386-4EE0-81FA-2590E15D8A8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E7766AA-F386-4EE0-81FA-2590E15D8A8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6246494F-B8CA-47B0-B447-FE4072CA34BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6246494F-B8CA-47B0-B447-FE4072CA34BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6246494F-B8CA-47B0-B447-FE4072CA34BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6246494F-B8CA-47B0-B447-FE4072CA34BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17A96760-3F55-4C05-B8AD-CBBF713A74EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17A96760-3F55-4C05-B8AD-CBBF713A74EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17A96760-3F55-4C05-B8AD-CBBF713A74EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17A96760-3F55-4C05-B8AD-CBBF713A74EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13D6031A-1259-49F0-8B3B-B7EDF6E8230F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13D6031A-1259-49F0-8B3B-B7EDF6E8230F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13D6031A-1259-49F0-8B3B-B7EDF6E8230F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13D6031A-1259-49F0-8B3B-B7EDF6E8230F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{376032FC-C672-4471-8F16-F582575EF928}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{376032FC-C672-4471-8F16-F582575EF928}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{376032FC-C672-4471-8F16-F582575EF928}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{376032FC-C672-4471-8F16-F582575EF928}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3E7766AA-F386-4EE0-81FA-2590E15D8A8D} = {0E1E8660-6FA6-4166-8F76-FB3E74B0FF56}
+		{6246494F-B8CA-47B0-B447-FE4072CA34BA} = {0E1E8660-6FA6-4166-8F76-FB3E74B0FF56}
+		{17A96760-3F55-4C05-B8AD-CBBF713A74EE} = {0E1E8660-6FA6-4166-8F76-FB3E74B0FF56}
+		{13D6031A-1259-49F0-8B3B-B7EDF6E8230F} = {0E1E8660-6FA6-4166-8F76-FB3E74B0FF56}
+		{376032FC-C672-4471-8F16-F582575EF928} = {DE7BC16A-578E-41B4-8E45-9A9F4DA04B95}
+	EndGlobalSection
+EndGlobal
